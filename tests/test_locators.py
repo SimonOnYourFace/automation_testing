@@ -29,3 +29,5 @@ def test_locator_alttext(page: Page):
 def test_locator_xpath(page: Page):
     page.goto("https://www.litres.ru/audiobooks/")
     expect(page.locator("xpath=//a[@title='YouTube']")).to_be_visible()
+
+    # коммент ради коммита
